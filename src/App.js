@@ -2,24 +2,43 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Amazon'  //props
+
+  const message = () => {
+    return 'welcome to AMAZON' //its a function method
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //react fragment
+    <>
+      <table>
+        <Column />
+        <Row />
+      </table>
+    </>
   );
+
+  function Column() {
+    return (
+      <>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+        </tr>
+      </>
+    )
+  }
+
+  function Row() {
+    return (
+      <>
+        <tr>
+          <td>Shanid</td>
+          <td>Pattambi</td>
+        </tr>
+      </>
+    )
+  }
 }
 
 export default App;
