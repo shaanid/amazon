@@ -9,8 +9,7 @@ function App() {
   }
 
   return (
-    //react fragment
-    <>
+    <> //react fragment
       <table>
         <Column />
         <Row />
