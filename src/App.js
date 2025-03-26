@@ -10,7 +10,7 @@ export default function ComingSoonPage() {
       {/* Navigation */}
       <nav className="absolute top-6 right-10 z-10 flex gap-6 text-sm tracking-widest uppercase">
         <a href="#" className="hover:text-pink-400">
-          Home
+          Home    
         </a>
         <a href="#" className="hover:text-pink-400">
           About
