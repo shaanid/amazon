@@ -13,7 +13,7 @@ export default function ComingSoonPage() {
           Home    
         </a>
         <a href="#" className="hover:text-pink-400">
-          About
+          About  
         </a>
         <a href="#" className="hover:text-pink-400">
           News
